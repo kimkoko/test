@@ -17,7 +17,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(cors());
 
 app.get("/", (req, res) => {
-  res.json({ message: "Welcome" });
+  res.json({ message: "Hello World" });
 });
 
 const PORT = process.env.PORT || 8080;
