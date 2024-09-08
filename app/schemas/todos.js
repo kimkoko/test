@@ -14,6 +14,10 @@ const todoSchema = new Schema({
     type: String,
     required: true,
   },
+  likes: {
+    type: Number,
+    required: true,
+  },
   createdAt: {
     type: Date,
     defaulte: Date.now,
